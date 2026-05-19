@@ -308,7 +308,7 @@ def inject_custom_css():
 
 def main():
     st.set_page_config(
-        page_title="LinkedIn Post Generator · Codebasics",
+        page_title="LinkedIn Post Generator · Pradeep's - AI Studio",
         page_icon="✦",
         layout="centered",
     )
@@ -318,7 +318,7 @@ def main():
     # ── Hero ──────────────────────────────────────────
     st.markdown("""
     <div class="hero-wrap">
-        <div class="hero-eyebrow">Codebasics · AI Studio</div>
+        <div class="hero-eyebrow">Pradeep's - AI Studio</div>
         <h1 class="hero-title">LinkedIn <span>Post</span> Generator</h1>
         <p class="hero-sub">Craft · Refine · Publish</p>
         <div class="hero-divider"><div class="hero-divider-dot"></div></div>
