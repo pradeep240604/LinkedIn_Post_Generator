@@ -23,7 +23,7 @@ def preprocess_posts(raw_file_path, processed_file_path="data/processed_posts.js
         new_tags = {unified_tags[tag] for tag in current_tags}
         post['tags'] = list(new_tags)
 
-    with open(processed_file_path, encoding='utf-8', mode='w') as outfile:
+    with open(processed_file_path, encoding='utf-8', mode='w', errors='surrogateescape') as outfile:
         json.dump(enriched_posts, outfile, indent=4)
     
 def get_unified_tags(posts_with_metadata):
